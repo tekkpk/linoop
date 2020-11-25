@@ -1,4 +1,9 @@
-This is a playbook!
-
-This is a playbook!
-This is a playbook!
+---
+- name: add user lise
+  host: tom22
+  tasks:
+    - name: add user lise
+      users:
+        name: lise
+        state: present
+...
