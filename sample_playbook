@@ -1,6 +1,6 @@
 ---
 - name: add user lise
-  host: tom22
+  hosts: tom22
   tasks:
     - name: add user lise
       users:
